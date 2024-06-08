@@ -90,11 +90,14 @@ console.log(ValidScore(6))
 console.log(ValidScore(4))
 
 // desafio: pegar o primeiro e o ultimo nome das pessoas em uma lista
-const list = ['a', 'b', 'c', 'd']
+const fullName = ('Lyan Brito de Jesus')
+const arrayName = fullName.split(" ")
 
-console.log(list[list.length - 1])
+console.log(arrayName)
 
-function SplitName(name){
-    
+const firstName = arrayName [0]
 
-}
+const lastName = arrayName[arrayName.length -1]
+
+console.log(firstName, lastName)
+
